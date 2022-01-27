@@ -1,0 +1,32 @@
+.download-box {
+    width: 30%;
+}
+.text-box {
+    width: 25%;
+}
+.img-book {
+    width: 427px;
+    height: 421px;
+}
+.text-main {
+    width: 50%;
+}
+
+@media (max-width: 596px){
+    .download-box {
+        width: 95%;
+        order: 3;
+    }
+    .text-box {
+        width: 75%;
+        order: 1;
+    }
+    .img-book {
+        width: 300px;
+        height: 294px;
+        order: 2;
+    }
+    .text-main {
+        width: 100%;
+    }
+}
